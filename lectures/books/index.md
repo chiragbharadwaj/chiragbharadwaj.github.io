@@ -39,17 +39,17 @@ Here are some solutions to selected problems from several foundational texts in 
 |![][mlapp]{:.resize}|_Machine Learning: A Probabilistic Perspective_|Kevin Murphy|Forthcoming|
 |![][bishop]{:.resize}|_Deep Learning: Foundations and Concepts_|Christopher Bishop|Forthcoming|
 
-[pugh]: ../../_data/books/pugh/cover.jpg
-[rudin]: ../../_data/books/rudin/cover.jpg
-[spivak]: ../../_data/books/spivak/cover.jpg
-[sheldon]: ../../_data/books/sheldon/cover.jpg
+[pugh]: {{site.baseurl}}/_data/books/pugh/cover.jpg
+[rudin]: {{site.baseurl}}/_data/books/rudin/cover.jpg
+[spivak]: {{site.baseurl}}/_data/books/spivak/cover.jpg
+[sheldon]: {{site.baseurl}}/_data/books/sheldon/cover.jpg
 
-[artin]: ../../_data/books/artin/cover.jpg
-[axler]: ../../_data/books/axler/cover.jpg
-[cookbook]: ../../_data/books/cookbook/cover.png
+[artin]: {{site.baseurl}}/_data/books/artin/cover.jpg
+[axler]: {{site.baseurl}}/_data/books/axler/cover.jpg
+[cookbook]: {{site.baseurl}}/_data/books/cookbook/cover.png
 
-[statsci]: ../../_data/books/statsci/cover.jpg
-[esl]: ../../_data/books/esl/cover.jpg
+[statsci]: {{site.baseurl}}/_data/books/statsci/cover.jpg
+[esl]: {{site.baseurl}}/_data/books/esl/cover.jpg
 
-[mlapp]: ../../_data/books/mlapp/cover.jpg
-[bishop]: ../../_data/books/bishop/cover.jpg
+[mlapp]: {{site.baseurl}}/_data/books/mlapp/cover.jpg
+[bishop]: {{site.baseurl}}/_data/books/bishop/cover.jpg
