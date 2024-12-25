@@ -43,7 +43,9 @@ This site exists primarily to document my thoughts about mathematics, machine le
 
 ### Pedagogical expositions
 
+- Axiomatic motivation of calculus
 - Machine learning from scratch
+- Practical lessons in ML
 - Some solution sketches
 
 I also track my progress with my hobbies and interests on some associated blogs.

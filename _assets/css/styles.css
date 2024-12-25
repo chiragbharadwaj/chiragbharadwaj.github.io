@@ -175,6 +175,11 @@ footer {
   margin-bottom: 1em;
 }
 
+/* breadcrumbs: for the nav bar at the top of non-home pages */
+nav.breadcrumbs {
+  margin-bottom: 1em;
+}
+
 /* headings: for the section titles, page titles, etc. */
 h1 {
   font-size: 160%;
@@ -244,6 +249,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+img.resize {
+  width: 4em;
+  margin-bottom: 1em;
 }
 
 /* sidebar: for navigating back to the home page */
