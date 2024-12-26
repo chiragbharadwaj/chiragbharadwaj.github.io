@@ -18,7 +18,9 @@ Note that by "first principles", I really do mean _first_ principles, not third 
 
 In keeping with the Commonwealth nomenclature, each module comprises several lectures. Please click on the associated links to see a detailed breakdown of lectures per module. The topics listed below survey broadly what each module aims to cover.
 
-TEST: does KaTeX render inline variables $$n \in N$$ correctly?
+TEST: does KaTeX render inline variables $n \in N$ correctly? What about this one:
+
+\\[\forall n \in N.\ n \geq 0.\\]
 
 ### [[link]][single] &thinsp; Single variable calculus
 
@@ -46,10 +48,10 @@ TEST: does KaTeX render inline variables $$n \in N$$ correctly?
 ### [[link]][lebesgue] &thinsp; Lebesgue theory
 
 |---|---|---|---|
-|Non-Riemann integration|Lebesgue convergence|Lebesgue in $$R^n$$|Hilbert spaces|
+|Non-Riemann integration|Lebesgue convergence|Lebesgue in $R^n$|Hilbert spaces|
 |measure theory|Lebesgue integration|Banach spaces|orthogonality|
 |measurable spaces|generalized differentation|Baire's theorem|linear maps|
-|Lebesgue measure|product measures|$$L^p$$ spaces|Fourier analysis|
+|Lebesgue measure|product measures|$L^p$ spaces|Fourier analysis|
 
 
 [prob]:     {{site.baseurl}}/lectures/ml/prob/
