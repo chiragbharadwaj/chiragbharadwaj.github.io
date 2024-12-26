@@ -12,7 +12,7 @@ katex: true
 
 I've always wanted to have a centralized repository of lecture-style posts that covers the basics of modern ML theory. Although not all results developed here will harbor use in practical implementations (indeed, at the time of this writing much of ML is dominated by deep learning), the goal is to provide a strong foundation in classical interpretations of statistics as well as a rigorous treatment of the flavor of machine learning that "dominated the scene" for decades. Finally, there will be a significant module at the end dedicated towards more modern materials, including various probabilistic theories drawn from deep learning.
 
-It is highly recommended to read through the [axiomatic treatment][calculus] of calculus prior to revising these modules. I will freely assume familiarity with concepts such as $$\sigma$$-algebras and results from basic topology in the exposition on probability theory, for example.
+It is highly recommended to read through the [axiomatic treatment][calculus] of calculus prior to revising these modules. I will freely assume familiarity with concepts such as $\sigma$-algebras and results from basic topology in the exposition on probability theory, for example.
 
 ## List of modules
 
