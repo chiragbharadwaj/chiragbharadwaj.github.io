@@ -43,31 +43,43 @@
 
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-1 sidebar">
-          <!-- Show a navigational sidebar, if needed. Otherwise, leave empty. -->
-            {% unless page.hide_nav %}
-              <a href="{{site.url}}">[Home]</a>
-            {% endunless %}
-        </div>
-
-        <div class="col-12 col-md-10">
-          <!-- Display the actual content on the page. -->
-          {{content}}
-
-          <!-- Generate a simple, informational footer per page (if needed). -->
-          {% unless page.hide_footer %}
-          <hr/>
-          <footer>
-            This page was generated using Jekyll, Markdown, and KaTeX.
-          </footer>
+      <!-- Show a navigational sidebar, if needed. Otherwise, leave empty. -->
+      {% unless page.hide_nav %}
+      <nav class="breadcrumbs">
+        {% assign subpaths = page.path | split: '/' %}
+        {% if subpaths.last == 'index.md' %}
+          {% assign new_length = subpaths.size | minus: 1 %}
+          {% assign subpaths = subpaths | slice: 0, new_length %}
+        {% endif %}
+      
+        [ <a href="/">home</a> | 
+        {% assign curr_path = '' %}
+        {% for subpath in subpaths %}
+          {% assign path = subpath | remove: '.md' %}
+          {% if forloop.last %}
+            <b>{{ path }}</b>
+          {% else %}
+            {% assign curr_path = curr_path | append: '/' | append: subpath %}
+            <a href="{{ curr_path }}">{{ path }}</a>
+          {% endif %}
+          {% unless forloop.last %}
+            | 
           {% endunless %}
-        </div>
+        {% endfor %}
+        ]
+      </nav>
+      {% endunless %}
 
-        <div class="col-12 col-md-1">
-          <!-- Leave empty for appearance of centering. -->
-        </div>
-      </div>
+      <!-- Display the actual content on the page. -->
+      {{content}}
+
+      <!-- Generate a simple, informational footer per page (if needed). -->
+      {% unless page.hide_footer %}
+      <hr/>
+      <footer>
+        This page was generated using Jekyll, Markdown, and KaTeX.
+      </footer>
+      {% endunless %}
     </div>
 
     {% if page.katex %}

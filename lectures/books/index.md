@@ -1,5 +1,6 @@
 ---
-layout: landing
+layout: default
+title: books
 ---
 
 # Solution sketches to various texts
@@ -12,44 +13,61 @@ Here are some solutions to selected problems from several foundational texts in 
 
 ||Name of work|Author|Solution sketches|
 |---|---|---|
-|![][pugh]{:.resize}|_Real Mathematical Analysis_|Charles Pugh|Forthcoming|
-|![][rudin]{:.resize}|_Principles of Mathematical Analysis_|Walter Rudin|Forthcoming|
-|![][spivak]{:.resize}|_Calculus on Manifolds_|Michael Spivak|Forthcoming|
-|![][sheldon]{:.resize}|_Measure, Integration, and Real Analysis_|Sheldon Axler|Forthcoming|
+|![][pugh]{:.resize}|_Real Mathematical Analysis_|Charles Pugh|[[link]][pugh-book]|
+|![][rudin]{:.resize}|_Principles of Mathematical Analysis_|Walter Rudin|[[link]][rudin-book]|
+|![][spivak]{:.resize}|_Calculus on Manifolds_|Michael Spivak|[[link]][spivak-book]|
+|![][sheldon]{:.resize}|_Measure, Integration, and Real Analysis_|Sheldon Axler|[[link]][sheldon-book]|
 
 ## Abstract and linear algebra
 
 ||Name of work|Author|Solution sketches|
 |---|---|---|
-|![][artin]{:.resize}|_Algebra_|Michael Artin|Forthcoming|
-|![][axler]{:.resize}|_Linear Algebra Done Right_|Sheldon Axler|Forthcoming|
-|![][cookbook]{:.resize}|_The Matrix Cookbook_|Kaare Petersen, Michael Pedersen|Forthcoming|
+|![][artin]{:.resize}|_Algebra_|Michael Artin|[[link]][artin-book]|
+|![][axler]{:.resize}|_Linear Algebra Done Right_|Sheldon Axler|[[link]][axler-book]|
+|![][cookbook]{:.resize}|_The Matrix Cookbook_|K. Petersen, M. Pedersen|[[link]][cookbook-book]|
 
 ## Probability and statistics
 
 ||Name of work|Author|Solution sketches|
 |---|---|---|
-|![][statsci]{:.resize}|_Probability and Statistics_|Ronald Walpole, Raymond Myers|Forthcoming|
-|![][esl]{:.resize}|_Elements of Statistical Learning_|Trevor Hastie, Robert Tibshirani,<br> Jerome Friedman|Forthcoming|
+|![][statsci]{:.resize}|_Probability and Statistics_|R. Walpole, R. Myers|[[link]][statsci-book]|
+|![][esl]{:.resize}|_Elements of Statistical Learning_|T. Hastie, R. Tibshirani, J. Friedman|[[link]][esl-book]|
 
 ## Machine learning
 
 ||Name of work|Author|Solution sketches|
 |---|---|---|
-|![][mlapp]{:.resize}|_Machine Learning: A Probabilistic Perspective_|Kevin Murphy|Forthcoming|
-|![][bishop]{:.resize}|_Deep Learning: Foundations and Concepts_|Christopher Bishop|Forthcoming|
+|![][mlapp]{:.resize}|_Machine Learning: A Probabilistic Perspective_|Kevin Murphy|[[link]][mlapp-book]|
+|![][bishop]{:.resize}|_Deep Learning: Foundations and Concepts_|Christopher Bishop|[[link]][bishop-book]|
 
-[pugh]: {{site.baseurl}}/_data/books/pugh/cover.jpg
-[rudin]: {{site.baseurl}}/_data/books/rudin/cover.jpg
-[spivak]: {{site.baseurl}}/_data/books/spivak/cover.jpg
-[sheldon]: {{site.baseurl}}/_data/books/sheldon/cover.jpg
 
-[artin]: {{site.baseurl}}/_data/books/artin/cover.jpg
-[axler]: {{site.baseurl}}/_data/books/axler/cover.jpg
-[cookbook]: {{site.baseurl}}/_data/books/cookbook/cover.png
+[pugh]:          {{site.baseurl}}/_data/books/pugh/cover.jpg
+[rudin]:         {{site.baseurl}}/_data/books/rudin/cover.jpg
+[spivak]:        {{site.baseurl}}/_data/books/spivak/cover.jpg
+[sheldon]:       {{site.baseurl}}/_data/books/sheldon/cover.jpg
 
-[statsci]: {{site.baseurl}}/_data/books/statsci/cover.jpg
-[esl]: {{site.baseurl}}/_data/books/esl/cover.jpg
+[artin]:         {{site.baseurl}}/_data/books/artin/cover.jpg
+[axler]:         {{site.baseurl}}/_data/books/axler/cover.jpg
+[cookbook]:      {{site.baseurl}}/_data/books/cookbook/cover.png
 
-[mlapp]: {{site.baseurl}}/_data/books/mlapp/cover.jpg
-[bishop]: {{site.baseurl}}/_data/books/bishop/cover.jpg
+[statsci]:       {{site.baseurl}}/_data/books/statsci/cover.jpg
+[esl]:           {{site.baseurl}}/_data/books/esl/cover.jpg
+
+[mlapp]:         {{site.baseurl}}/_data/books/mlapp/cover.jpg
+[bishop]:        {{site.baseurl}}/_data/books/bishop/cover.jpg
+
+
+[pugh-book]:     {{site.baseurl}}/lectures/books/pugh/
+[rudin-book]:    {{site.baseurl}}/lectures/books/rudin/
+[spivak-book]:   {{site.baseurl}}/lectures/books/spivak/
+[sheldon-book]:  {{site.baseurl}}/lectures/books/sheldon/
+
+[artin-book]:    {{site.baseurl}}/lectures/books/artin/
+[axler-book]:    {{site.baseurl}}/lectures/books/axler/
+[cookbook-book]: {{site.baseurl}}/lectures/books/cookbook/
+
+[statsci-book]:  {{site.baseurl}}/lectures/books/statsci/
+[esl-book]:      {{site.baseurl}}/lectures/books/esl/
+
+[mlapp-book]:    {{site.baseurl}}/lectures/books/mlapp/
+[bishop-book]:   {{site.baseurl}}/lectures/books/bishop/

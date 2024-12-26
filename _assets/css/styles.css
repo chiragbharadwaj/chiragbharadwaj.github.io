@@ -151,8 +151,15 @@
 /* html: for overall page formatting */
 html {
   background: white;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0em;
+  padding-bottom: 1em;
+}
+@media (min-width: 56em) {
+  html {
+    margin-top: 4em;
+  }
 }
 
 /* body: for the actual text found in pages by default */
@@ -163,7 +170,7 @@ body {
   
   line-height: 1.5em;
   margin: auto;
-  max-width: 68em;
+  max-width: 56em;
   width: 100%;
 }
 
@@ -253,23 +260,6 @@ img {
 img.resize {
   width: 4em;
   margin-bottom: 1em;
-}
-
-/* sidebar: for navigating back to the home page */
-.sidebar {
-  padding-bottom: 1em;
-  padding-right: 1em;
-}
-@media (max-width: 480px) {
-  html {
-    margin: 1em;
-    padding: 0em;
-  }
-}
-@media (min-width: 68em) {
-  .sidebar {
-    padding-top: 3em;
-  }
 }
 
 /* katex: for rendering equations dynamically on posts */

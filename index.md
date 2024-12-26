@@ -39,21 +39,31 @@ I work in machine learning, primarily in the recommendations space. A lot of my 
 
 ## Various writings
 
-This site exists primarily to document my thoughts about mathematics, machine learning, and data engineering. My hope is that these musings and treatises can also serve as a valuable pedagogical tool for other ML practitioners.
+This site exists primarily to document my thoughts about mathematics, statistics, and machine learning. My hope is that these musings and treatises can also serve as a valuable pedagogical tool for other ML practitioners.
 
 ### Pedagogical expositions
 
-- Axiomatic motivation of calculus
-- Machine learning from scratch
-- Practical lessons in ML
-- Some solution sketches
+- [[link]][calculus] &thinsp; Axiomatic motivation of calculus 
+- [[link]][ml]       &thinsp; Machine learning from scratch
+- [[link]][sketches] &thinsp; Some solution sketches
 
 I also track my progress with my hobbies and interests on some associated blogs.
 
 ### Personal blogs
 
-- Personal finance
-- Shogi tactics
-- Chinese language/literature
-- Piano performances
-- Drawings and paintings
+- [[link]][finance] &thinsp; Personal finance
+- [[link]][shogi]   &thinsp; Shogi tactics
+- [[link]][chinese] &thinsp; Chinese language/literature
+- [[link]][piano]   &thinsp; Piano performances
+- [[link]][art]     &thinsp; Drawings and paintings
+
+
+[calculus]: {{site.baseurl}}/lectures/math/
+[ml]:       {{site.baseurl}}/lectures/ml/
+[sketches]: {{site.baseurl}}/lectures/books/
+
+[finance]:  {{site.baseurl}}/blogs/finance/
+[shogi]:    {{site.baseurl}}/blogs/shogi/
+[chinese]:  {{site.baseurl}}/blogs/chinese/
+[piano]:    {{site.baseurl}}/blogs/piano/
+[art]:      {{site.baseurl}}/blogs/art/
