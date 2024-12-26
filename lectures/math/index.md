@@ -20,6 +20,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][single] &thinsp; Single variable calculus
 
+{:.fixed-table}
 |---|---|---|---|
 |model theory|rational numbers|limits and functions|Riemann integration|
 |propositional logic|real numbers|continuity|convergence|
@@ -28,6 +29,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][linalg] &thinsp; Linear algebra
 
+{:.fixed-table}
 |---|---|---|---|
 |vector spaces|matrices|eigenspaces|operators|
 |subspaces|product spaces|inner products|multilinear algebra|
@@ -36,6 +38,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][multi] &thinsp; Multivariable calculus
 
+{:.fixed-table}
 |---|---|---|---|
 |multivariate functions|implicit functions|change of variable|manifold integration|
 |partial derivatives|integrable functions|chain integration|Stokes' theorem|
@@ -43,6 +46,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][lebesgue] &thinsp; Lebesgue theory
 
+{:.fixed-table}
 |---|---|---|---|
 |Non-Riemann integration|Lebesgue convergence|Lebesgue in $R^n$|Hilbert spaces|
 |measure theory|Lebesgue integration|Banach spaces|orthogonality|

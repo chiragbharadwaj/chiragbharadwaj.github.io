@@ -20,6 +20,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][prob] &thinsp; Probability theory
 
+{:.fixed-table}
 |---|---|---|---|
 |probability measures|independence|moments|multivariate analogues|
 |sample spaces|random variables|conditional probability|discrete analogues|
@@ -28,12 +29,14 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][info] &thinsp; Information theory
 
+{:.fixed-table}
 |---|---|---|---|
 |Shannon entropy|conditional entropy|chain rules|maximum entropy|
 |joint entropy|mutual information|differential entropy|Fisher information|
 
 ### [[link]][freq] &thinsp; Frequentist interpretation of statistics
 
+{:.fixed-table}
 |---|---|---|---|
 |discrete distributions|descriptive statistics|point estimates|regression problems|
 |continuous distributions|estimation problems|confidence intervals|classification problems|
@@ -42,6 +45,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][basic] &thinsp; Classical machine learning techniques
 
+{:.fixed-table}
 |---|---|---|---|
 |linear regression|perceptrons|model inference|support vectors|
 |least squares|regularization|tree-based models|random forests|
@@ -50,6 +54,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][bayes] &thinsp; Probabilistic machine learning
 
+{:.fixed-table}
 |---|---|---|---|
 |generative models|hierarchical models|generalized linear models|kernel techniques|
 |conjugate priors|decision theory|Gaussian mixtures|Gaussian processes|
@@ -58,6 +63,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 
 ### [[link]][deep] &thinsp; Deep neural networks
 
+{:.fixed-table}
 |---|---|---|---|
 |multi-layer networks|backpropagation|transformer models|latent variables|
 |deep networks|regularization|multi-modal methods|autoencoders|

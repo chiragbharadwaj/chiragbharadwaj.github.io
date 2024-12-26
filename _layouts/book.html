@@ -1,0 +1,49 @@
+---
+layout: default
+katex: true
+---
+
+<h1>{{ page.book_name }}</h1>
+<h3 style="font-family: Merriweather; font-weight: 100">
+  <i>{{ page.author }}</i>
+</h3>
+<hr/>
+
+{{content}}
+
+<table>
+  <thead>
+    <tr>
+      <th>Chapter</th>
+      <th>Chapter title</th>
+      <th>Solutions</th>
+      <th>Last updated</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign this_path = page.path | replace: 'index.md', 'solutions' %}
+  {% assign index = 1 %}
+  {% for solution in site.pages %}
+    <tr>
+    {% assign that_path_parts = solution.path | split: '/' %}
+    {% assign new_size = that_path_parts.size | minus: 1 %}
+    {% assign that_path = that_path_parts | slice: 0, new_size | join: '/' %}
+    {% if that_path == this_path %}
+      <td>
+      {{ index }}
+      </td>
+      <td>
+      {{ solution.chapter_name }}
+      </td>
+      <td>
+        <a href="{{ solution.url }}">[link]</a>
+      </td>
+      <td>
+      {{ solution.date | date: '%-d %b %Y' }}
+      </td>
+      {% assign index = index | plus: 1 %}
+    {% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>

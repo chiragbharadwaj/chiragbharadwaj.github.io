@@ -238,6 +238,14 @@ table {
 td {
   padding-right: 1em;
 }
+.fixed-table {
+  table-layout: fixed;
+  width: 100%;
+
+  border-collapse: separate;
+  border-spacing: 1em 0;
+  margin-bottom: 1.25em;
+}
 
 /* a: for links to other pages, websites, etc. */
 a {

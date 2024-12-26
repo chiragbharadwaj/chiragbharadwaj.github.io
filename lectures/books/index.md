@@ -11,7 +11,8 @@ Here are some solutions to selected problems from several foundational texts in 
 
 ## Real analysis
 
-||Name of work|Author|Solution sketches|
+{:.fixed-table}
+| |Name of work|Author|Solution sketches|
 |---|---|---|
 |![][pugh]{:.resize}|_Real Mathematical Analysis_|Charles Pugh|[[link]][pugh-book]|
 |![][rudin]{:.resize}|_Principles of Mathematical Analysis_|Walter Rudin|[[link]][rudin-book]|
@@ -20,22 +21,25 @@ Here are some solutions to selected problems from several foundational texts in 
 
 ## Abstract and linear algebra
 
-||Name of work|Author|Solution sketches|
+{:.fixed-table}
+| |Name of work|Author|Solution sketches|
 |---|---|---|
 |![][artin]{:.resize}|_Algebra_|Michael Artin|[[link]][artin-book]|
 |![][axler]{:.resize}|_Linear Algebra Done Right_|Sheldon Axler|[[link]][axler-book]|
-|![][cookbook]{:.resize}|_The Matrix Cookbook_|K. Petersen, M. Pedersen|[[link]][cookbook-book]|
+|![][cookbook]{:.resize}|_The Matrix Cookbook_|Kaare Petersen,<br> Michael Pedersen|[[link]][cookbook-book]|
 
 ## Probability and statistics
 
-||Name of work|Author|Solution sketches|
+{:.fixed-table}
+| |Name of work|Author|Solution sketches|
 |---|---|---|
-|![][statsci]{:.resize}|_Probability and Statistics_|R. Walpole, R. Myers|[[link]][statsci-book]|
-|![][esl]{:.resize}|_Elements of Statistical Learning_|T. Hastie, R. Tibshirani, J. Friedman|[[link]][esl-book]|
+|![][statsci]{:.resize}|_Probability and Statistics_|Ronald Walpole,<br> Raymond Myers|[[link]][statsci-book]|
+|![][esl]{:.resize}|_Elements of Statistical Learning_|Trevor Hastie,<br> Robert Tibshirani,<br> Jerome Friedman|[[link]][esl-book]|
 
 ## Machine learning
 
-||Name of work|Author|Solution sketches|
+{:.fixed-table}
+| |Name of work|Author|Solution sketches|
 |---|---|---|
 |![][mlapp]{:.resize}|_Machine Learning: A Probabilistic Perspective_|Kevin Murphy|[[link]][mlapp-book]|
 |![][bishop]{:.resize}|_Deep Learning: Foundations and Concepts_|Christopher Bishop|[[link]][bishop-book]|

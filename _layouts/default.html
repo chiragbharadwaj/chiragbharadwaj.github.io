@@ -46,7 +46,7 @@
       <!-- Show a navigational sidebar, if needed. Otherwise, leave empty. -->
       {% unless page.hide_nav %}
       <nav class="breadcrumbs">
-        {% assign subpaths = page.path | split: '/' | where_exp: "subpath", "subpath != 'posts'" %}
+        {% assign subpaths = page.path | split: '/' | where_exp: "subpath", "subpath != 'posts'" | where_exp: "subpath", "subpath != 'solutions'" %}
         {% if subpaths.last == 'index.md' %}
           {% assign new_length = subpaths.size | minus: 1 %}
           {% assign subpaths = subpaths | slice: 0, new_length %}
