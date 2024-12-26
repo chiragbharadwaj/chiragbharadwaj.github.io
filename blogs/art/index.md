@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: blog
 title: blogs | art
+blog_name: Drawings and paintings
+description: From stick-art to Renaissance pastiches, one step at a time.
 ---
-
-# Drawings and paintings
-
-----
 
 ![construction][]
 

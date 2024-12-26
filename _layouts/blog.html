@@ -1,0 +1,31 @@
+---
+layout: default
+katex: true
+---
+
+<h1>{{ page.blog_name }}</h1>
+<h3 style="font-family: Merriweather; font-weight: 100">
+  <i>{{ page.description }}</i>
+</h3>
+
+<hr/>
+
+{% assign this_path = page.path | replace: 'index.md', 'posts' %}
+{% for post in site.pages reversed %}
+  {% assign that_path_parts = post.path | split: '/' %}
+  {% assign new_size = that_path_parts.size | minus: 1 %}
+  {% assign that_path = that_path_parts | slice: 0, new_size | join: '/' %}
+  {% if that_path == this_path %}
+    <h2 style="margin-bottom: 0em">
+      <a href="{{ post.url }}">{{ post.post_name }}</a>
+    </h2>
+    <h3 style="color: #444444; margin-bottom: 0.25em">
+      {{ post.date | date: 'posted on %-d %b %Y' }}
+    </h3>
+    <div style="font-style: italic; margin-bottom: 1em">
+      {{ post.excerpt }}
+    </div>
+  {% endif %}
+{% endfor %}
+
+{{content}}

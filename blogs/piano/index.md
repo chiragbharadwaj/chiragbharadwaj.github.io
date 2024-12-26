@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: blog
 title: blogs | piano
+blog_name: Piano performances and analyses
+description: Re-learning the piano. A journey from basic exercises to concert performances.
 ---
-
-# Piano performances and analyses
-
-----
 
 ![construction][]
 
