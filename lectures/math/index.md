@@ -18,6 +18,8 @@ Note that by "first principles", I really do mean _first_ principles, not third 
 
 In keeping with the Commonwealth nomenclature, each module comprises several lectures. Please click on the associated links to see a detailed breakdown of lectures per module. The topics listed below survey broadly what each module aims to cover.
 
+TEST: does KaTeX render inline variables $$n \in N$$ correctly?
+
 ### [[link]][single] &thinsp; Single variable calculus
 
 |---|---|---|---|
