@@ -3,4 +3,10 @@ layout: default
 katex: true
 ---
 
-TBD
+<h1 style="margin-bottom: 0.25em">{{ page.post_name }}</h1>
+<h3 style="color: #444444">
+  {{ page.date | date: '%-d %b %Y' }}
+</h3>
+<hr/>
+
+{{content}}
