@@ -15,7 +15,9 @@ katex: true
   <thead>
     <tr>
       <th>Chapter</th>
+      <th>Section</th>
       <th>Chapter title</th>
+      <th>Section title</th>
       <th>Solutions</th>
       <th>Last updated</th>
     </tr>
@@ -28,12 +30,18 @@ katex: true
     {% assign new_size = that_path_parts.size | minus: 1 %}
     {% assign that_path = that_path_parts | slice: 0, new_size | join: '/' %}
     {% if that_path == this_path %}
-      {% assign chapter = that_path_parts.last | remove: '.md' | split: '-' %}
+      {% assign pieces = that_path_parts.last | remove: '.md' | split: '-' %}
       <td>
-      {{ chapter.last }}
+      {{ pieces[-2] }}
+      </td>
+      <td>
+      {{ pieces.last }}
       </td>
       <td>
       {{ solution.chapter_name }}
+      </td>
+      <td>
+      {{ solution.section_name }}
       </td>
       <td>
         <a href="{{ solution.url }}">[link]</a>

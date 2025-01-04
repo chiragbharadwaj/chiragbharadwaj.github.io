@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/_assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/_assets/css/styles.css">
 
-    {% if page.katex %}
+    {% if page.katex or layout.katex %}
     <!-- Linking in KaTeX if MathJax is chosen (i.e. overriding it.) -->
     <link rel="stylesheet" href="{{site.baseurl}}/_assets/css/katex.min.css">
     {% endif %}
@@ -82,7 +82,7 @@
       {% endunless %}
     </div>
 
-    {% if page.katex %}
+    {% if page.katex or layout.katex %}
     <!-- Auto-rendering KaTeX on pages with equations. -->
     <script src="{{site.baseurl}}/_assets/js/katex.min.js"></script>
     <script src="{{site.baseurl}}/_assets/js/auto-render.min.js"></script>
