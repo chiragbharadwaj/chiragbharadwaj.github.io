@@ -18,7 +18,7 @@ Note that by "first principles", I really do mean _first_ principles, not third 
 
 In keeping with the Commonwealth nomenclature, each module comprises several lectures. Please click on the associated links to see a detailed breakdown of lectures per module. The topics listed below survey broadly what each module aims to cover.
 
-### [[link]][single] &thinsp; Single variable calculus
+### <!--[[link]][single]-->[TBD] &thinsp; Single variable calculus
 
 {:.fixed-table}
 |---|---|---|---|
@@ -27,7 +27,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 |first-order logic|point-set topology|derivatives|Stone-Weierstrauss theorem|
 |axiomatic set theory|sequences and series|Taylor's theorem|some special functions|
 
-### [[link]][linalg] &thinsp; Linear algebra
+### <!--[[link]][linalg]-->[TBD] &thinsp; Linear algebra
 
 {:.fixed-table}
 |---|---|---|---|
@@ -36,7 +36,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 |span and basis|dual spaces|spectral theorem|bilinear forms|
 |linear maps|polynomials|factorizations|determinants|
 
-### [[link]][multi] &thinsp; Multivariable calculus
+### <!--[[link]][multi]-->[TBD] &thinsp; Multivariable calculus
 
 {:.fixed-table}
 |---|---|---|---|
@@ -44,7 +44,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 |partial derivatives|integrable functions|chain integration|Stokes' theorem|
 |inverse functions|Fubini's theorem|fundamental theorems|classical theorems|
 
-### [[link]][lebesgue] &thinsp; Lebesgue theory
+### <!--[[link]][lebesgue]-->[TBD] &thinsp; Lebesgue theory
 
 {:.fixed-table}
 |---|---|---|---|

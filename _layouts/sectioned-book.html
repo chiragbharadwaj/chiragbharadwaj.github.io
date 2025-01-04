@@ -14,10 +14,9 @@ katex: true
 <table>
   <thead>
     <tr>
+      <th>Chaction</th>
       <th>Chapter</th>
       <th>Section</th>
-      <th>Chapter title</th>
-      <th>Section title</th>
       <th>Solutions</th>
       <th>Last updated</th>
     </tr>
@@ -32,10 +31,7 @@ katex: true
     {% if that_path == this_path %}
       {% assign pieces = that_path_parts.last | remove: '.md' | split: '-' %}
       <td>
-      {{ pieces[-2] }}
-      </td>
-      <td>
-      {{ pieces.last }}
+      {{ pieces[-2] }}{{ pieces.last }}
       </td>
       <td>
       {{ solution.chapter_name }}

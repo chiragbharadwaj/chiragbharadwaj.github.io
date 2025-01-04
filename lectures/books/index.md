@@ -14,35 +14,35 @@ Here are some solutions to selected problems from several foundational texts in 
 {:.fixed-table}
 | |Name of work|Author|Solution sketches|
 |---|---|---|
-|![][pugh]{:.resize}|_Real Mathematical Analysis_|Charles Pugh|[[link]][pugh-book]|
-|![][rudin]{:.resize}|_Principles of Mathematical Analysis_|Walter Rudin|[[link]][rudin-book]|
-|![][spivak]{:.resize}|_Calculus on Manifolds_|Michael Spivak|[[link]][spivak-book]|
-|![][sheldon]{:.resize}|_Measure, Integration, and Real Analysis_|Sheldon Axler|[[link]][sheldon-book]|
+|![][pugh]{:.resize}|_Real Mathematical Analysis_|Charles Pugh|<!--[[link]][pugh-book]-->Forthcoming|
+|![][rudin]{:.resize}|_Principles of Mathematical Analysis_|Walter Rudin|<!--[[link]][rudin-book]-->Forthcoming|
+|![][spivak]{:.resize}|_Calculus on Manifolds_|Michael Spivak|<!--[[link]][spivak-book]-->Forthcoming|
+|![][sheldon]{:.resize}|_Measure, Integration, and Real Analysis_|Sheldon Axler|<!--[[link]][sheldon-book]-->Forthcoming|
 
 ## Abstract and linear algebra
 
 {:.fixed-table}
 | |Name of work|Author|Solution sketches|
 |---|---|---|
-|![][artin]{:.resize}|_Algebra_|Michael Artin|[[link]][artin-book]|
+|![][artin]{:.resize}|_Algebra_|Michael Artin|<!--[[link]][artin-book]-->Forthcoming|
 |![][axler]{:.resize}|_Linear Algebra Done Right_|Sheldon Axler|[[link]][axler-book]|
-|![][cookbook]{:.resize}|_The Matrix Cookbook_|Kaare Petersen,<br> Michael Pedersen|[[link]][cookbook-book]|
+|![][cookbook]{:.resize}|_The Matrix Cookbook_|Kaare Petersen,<br> Michael Pedersen|<!--[[link]][cookbook-book]-->Forthcoming|
 
 ## Probability and statistics
 
 {:.fixed-table}
 | |Name of work|Author|Solution sketches|
 |---|---|---|
-|![][statsci]{:.resize}|_Probability and Statistics_|Ronald Walpole,<br> Raymond Myers|[[link]][statsci-book]|
-|![][esl]{:.resize}|_Elements of Statistical Learning_|Trevor Hastie,<br> Robert Tibshirani,<br> Jerome Friedman|[[link]][esl-book]|
+|![][statsci]{:.resize}|_Probability and Statistics_|Ronald Walpole,<br> Raymond Myers|<!--[[link]][statsci-book]-->Forthcoming|
+|![][esl]{:.resize}|_Elements of Statistical Learning_|Trevor Hastie,<br> Robert Tibshirani,<br> Jerome Friedman|<!--[[link]][esl-book]-->Forthcoming|
 
 ## Machine learning
 
 {:.fixed-table}
 | |Name of work|Author|Solution sketches|
 |---|---|---|
-|![][mlapp]{:.resize}|_Machine Learning: A Probabilistic Perspective_|Kevin Murphy|[[link]][mlapp-book]|
-|![][bishop]{:.resize}|_Deep Learning: Foundations and Concepts_|Christopher Bishop|[[link]][bishop-book]|
+|![][mlapp]{:.resize}|_Machine Learning: A Probabilistic Perspective_|Kevin Murphy|<!--[[link]][mlapp-book]-->Forthcoming|
+|![][bishop]{:.resize}|_Deep Learning: Foundations and Concepts_|Christopher Bishop|<!--[[link]][bishop-book]-->Forthcoming|
 
 
 [pugh]:          {{site.baseurl}}/_data/books/pugh/cover.jpg

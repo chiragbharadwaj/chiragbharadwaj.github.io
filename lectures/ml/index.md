@@ -18,7 +18,7 @@ It is highly recommended to read through the [axiomatic treatment][calculus] of 
 
 In keeping with the Commonwealth nomenclature, each module comprises several lectures. Please click on the associated links to see a detailed breakdown of lectures per module. The topics listed below survey broadly what each module aims to cover.
 
-### [[link]][prob] &thinsp; Probability theory
+### <!--[[link]][prob]-->[TBD] &thinsp; Probability theory
 
 {:.fixed-table}
 |---|---|---|---|
@@ -27,14 +27,14 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 |random events|expectation|Bayes' theorem|large number laws|
 |probability spaces|variance|probability distributions|central limit theorem|
 
-### [[link]][info] &thinsp; Information theory
+### <!--[[link]][info]-->[TBD] &thinsp; Information theory
 
 {:.fixed-table}
 |---|---|---|---|
 |Shannon entropy|conditional entropy|chain rules|maximum entropy|
 |joint entropy|mutual information|differential entropy|Fisher information|
 
-### [[link]][freq] &thinsp; Frequentist interpretation of statistics
+### <!--[[link]][freq]-->[TBD] &thinsp; Frequentist interpretation of statistics
 
 {:.fixed-table}
 |---|---|---|---|
@@ -43,7 +43,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 |transformations|sufficient statistics|hypothesis testing|factorial experiments|
 |sampling distributions|likelihood estimators|correlation|non-parametrics|
 
-### [[link]][basic] &thinsp; Classical machine learning techniques
+### <!--[[link]][basic]-->[TBD] &thinsp; Classical machine learning techniques
 
 {:.fixed-table}
 |---|---|---|---|
@@ -52,7 +52,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 |shrinkage|kernel methods|bootstrap methods|bagging and sampling|
 |logistic regression|model selection|gradient boosting|ensemble techniques|
 
-### [[link]][bayes] &thinsp; Probabilistic machine learning
+### <!--[[link]][bayes]-->[TBD] &thinsp; Probabilistic machine learning
 
 {:.fixed-table}
 |---|---|---|---|
@@ -61,7 +61,7 @@ In keeping with the Commonwealth nomenclature, each module comprises several lec
 |Gaussian models|linear regression|latent linear models|adaptive basis functions|
 |posterior distributions|logistic regression|sparse linear models|Markov models|
 
-### [[link]][deep] &thinsp; Deep neural networks
+### <!--[[link]][deep]-->[TBD] &thinsp; Deep neural networks
 
 {:.fixed-table}
 |---|---|---|---|
