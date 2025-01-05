@@ -312,6 +312,10 @@ img.resize {
 .katex {
   font-size: 1.1em !important;
 }
+.katex-display {
+  overflow: auto hidden;
+  padding: 0.1em;
+}
 
 /* solution: custom CSS overrides for solutions, where serif fonts are better */
 .solution {
@@ -324,6 +328,10 @@ img.resize {
 }
 .solution .katex {
   font-size: 0.9em !important;
+}
+.solution .katex-display {
+  overflow: auto hidden;
+  padding: 0.1em;
 }
 .solution ul {
   margin-top: -1em;

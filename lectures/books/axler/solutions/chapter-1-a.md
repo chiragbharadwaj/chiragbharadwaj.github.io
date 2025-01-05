@@ -129,34 +129,21 @@ Thus, by construction, such a $\beta$ exists.
 
 \\[\alpha + \beta_1 = 0 \enspace \text{and} \enspace \alpha + \beta_2 = 0, \enspace \text{yet} \enspace \beta_1 \neq \beta_2.\\]
 
-We will define $\alpha$, $\beta_1$, and $\beta_2$ such that:
-- $\alpha = a + bi$, &nbsp; where $a, b \in \mathcal{R}$;
-- $\beta_1 = c + di$, &nbsp; where $c, d \in \mathcal{R}$;
-- $\beta_2 = x + yi$, &nbsp; where $x, y \in \mathcal{R}$.
-
 Then, we know that
 
 $$
 \begin{aligned}
-  \alpha + \beta_1 &= 0 &&= \alpha + \beta_2 \\
-  (a + bi) + (c + di) &\triangleq 0_\mathcal{R} + 0_\mathcal{R}i &&\triangleq (a + bi) + (x + yi) \\
-  (a + c) + (b + d)i &= 0_\mathcal{R} + 0_\mathcal{R}i &&= (a + x) + (b + y)i,
+  \beta_1 &= \beta_1 + 0 && \text{(id. for $+_\mathcal{C}$)} \\
+  &\triangleq \beta_1 + (\alpha + \beta_2) \\
+  &= (\beta_1 + \alpha) + \beta_2 && \text{(Problem 2)} \\
+  &= (\alpha + \beta_1) + \beta_2 && \text{(Problem 1)} \\
+  &\triangleq 0 + \beta_2 \\
+  &= \beta_2 + 0 && \text{(Problem 1)} \\
+  &= \beta_2, && \text{(id. for $+_\mathcal{C}$)}
 \end{aligned}
 $$
 
-where the last line follows from the definition of $+\_\mathcal{C}$. Then, it follows by the uniqueness of $0$ that
-
-\\[a + c = 0\_\mathcal{R} = a + x \enspace \text{and} \enspace b + d = 0\_\mathcal{R} = b + y.\\]
-
-Because these are all real numbers, we can simply subtract in $\mathcal{R}$ to arrive at
-
-\\[c = -a = x \enspace \text{and} \enspace d = -b = y.\\]
-
-It follows that
-
-\\[\beta_1 = c + di = -a + (-b)i = x + yi = \beta_2,\\]
-
-which is a contradiction. Thus, such a solution must be unique.
+which is a contradiction. Thus, such a $\beta$ must be unique.
 
 ----
 
@@ -172,10 +159,10 @@ $$
 \begin{aligned}
   \alpha\beta &\triangleq (a + bi) \cdot (w + zi) \\
   &= (aw - bz) + (az + bw)i && \text{(def. of $\cdot_\mathcal{C}$)} \\
-  &= \left[\left(\frac{a^2}{a^2 + b^2}\right) - \left(\frac{-b^2}{a^2 + b^2}\right)\right] + \left[\left(\frac{-ab}{a^2 + b^2}\right) + \left(\frac{ba}{a^2 + b^2}\right)\right]i \\
-  &= \left(\frac{a^2 + b^2}{a^2 + b^2}\right) + \left(\frac{-ab + ba}{a^2 + b^2}\right)i \\
-  &= \left(\frac{a^2 + b^2}{a^2 + b^2}\right) + \left(\frac{-ab + ab}{a^2 + b^2}\right)i && \text{($\cdot_\mathcal{R}$ is comm.)} \\
-  &= 1_\mathcal{R} + \left(\tfrac{0_\mathcal{R}}{a^2 + b^2}\right)i && \text{(def. of $1_\mathcal{R}$, $0_\mathcal{R}$)} \\
+  &= \left[\left(\dfrac{a^2}{a^2 + b^2}\right) - \left(\dfrac{-b^2}{a^2 + b^2}\right)\right] + \left[\left(\dfrac{-ab}{a^2 + b^2}\right) + \left(\dfrac{ba}{a^2 + b^2}\right)\right]i \\
+  &= \left(\dfrac{a^2 + b^2}{a^2 + b^2}\right) + \left(\dfrac{-ab + ba}{a^2 + b^2}\right)i \\
+  &= \left(\dfrac{a^2 + b^2}{a^2 + b^2}\right) + \left(\dfrac{-ab + ab}{a^2 + b^2}\right)i && \text{($\cdot_\mathcal{R}$ is comm.)} \\
+  &= 1_\mathcal{R} + \left(\dfrac{0_\mathcal{R}}{a^2 + b^2}\right)i && \text{(def. of $1_\mathcal{R}$, $0_\mathcal{R}$)} \\
   &= 1_\mathcal{R} + 0_\mathcal{R}i && \text{($0_\mathcal{R}$ absorbs)} \\
   &\triangleq 1.
 \end{aligned}
@@ -187,82 +174,25 @@ Thus, by construction, such a $\beta$ exists.
 
 \\[\alpha\beta_1 = 1 \enspace \text{and} \enspace \alpha\beta_2 = 1, \enspace \text{yet} \enspace \beta_1 \neq \beta_2.\\]
 
-We will define $\alpha$, $\beta_1$, and $\beta_2$ such that:
-- $\alpha = a + bi$, &nbsp; where $\alpha \neq 0$ and $a, b \in \mathcal{R}$;
-- $\beta_1 = c + di$, &nbsp; where $c, d \in \mathcal{R}$;
-- $\beta_2 = x + yi$, &nbsp; where $x, y \in \mathcal{R}$.
-
 Then, we know that
 
 $$
 \begin{aligned}
-  \alpha\beta_1 &= 1 &&= \alpha\beta_2 \\
-  (a + bi) \cdot (c + di) &\triangleq 1_\mathcal{R} + 0_\mathcal{R}i &&\triangleq (a + bi) \cdot (x + yi) \\
-  (ac - bd) + (ad + bc)i &= 1_\mathcal{R} + 0_\mathcal{R}i &&= (ax - by) + (ay + bx)i,
+  \beta_1 &= \beta_1 \cdot 1 && \text{(id. for $\cdot_\mathcal{C}$)} \\
+  &\triangleq \beta_1 (\alpha\beta_2) \\
+  &= (\beta_1\alpha)\beta_2 && \text{(Problem 3)} \\
+  &= (\alpha\beta_1)\beta_2 && \text{($\cdot_\mathcal{C}$ is comm.)} \\
+  &\triangleq 1 \cdot \beta_2 \\
+  &= \beta_2 \cdot 1 && \text{($\cdot_\mathcal{C}$ is comm.)} \\
+  &= \beta_2, && \text{(id. for $\cdot_\mathcal{C}$)}
 \end{aligned}
 $$
 
-where the last line follows from the definition of $\cdot\_\mathcal{C}$. Then, it follows by the uniqueness of $1$ that
-
-\\[ac - bd = 1\_\mathcal{R} = ax - by \enspace \text{and} \enspace ad + bc = 0\_\mathcal{R} = ay + bx.\\]
-
-Focusing on the extreme LHS and RHS of each equation, we arrive at
-
-\\[ac - ax = bd - by \enspace \text{and} \enspace ad - ay = bx - bc.\\]
-
-We can factor out common components using the fact that $\cdot_\mathcal{R}$ is distributive:
-
-\\[a(c - x) = b(d - y) \enspace \text{and} \enspace a(d - y) = b(x - c) = -b(c - x),\\]
-
-where we also used the commutativity of $+\_\mathcal{R}$. Finally, we multiply the first equation by $b$ and the second equation by $a$:
-
-\\[ab(c - x) = b^2(d - y) \enspace \text{and} \enspace a^2(d - y) = -ab(c - x).\\]
-
-We can now reason equationally:
-
-$$
-\begin{aligned}
-  0_\mathcal{R} &= ab(c - x) + [-ab(c - x)] \\
-  &= b^2(d - y) + a^2(d - y) \\
-  &= (b^2 + a^2)(d - y) \\
-  &= (a^2 + b^2)(d - y),
-\end{aligned}
-$$
-
-which implies that $d - y = 0\_\mathcal{R}$, as by assumption $a^2 + b^2 \neq 0\_\mathcal{R}$. In turn, this shows that
-
-\\[bd - by = b(d - y) = b \cdot 0\_\mathcal{R} = 0\_\mathcal{R}.\\]
-
-Then, since $ac - ax = bd - by = 0\_\mathcal{R}$, we see that $a(c - x) = ac - ax = 0\_\mathcal{R}$. This yields two cases:
-
-|Case|Condition|
-|---|---|
-|I|$a = 0\_\mathcal{R}$|
-|II|$c - x = 0\_\mathcal{R}$|
-
-In Case I, we can clean up $\alpha\beta_1$ and $\alpha\beta_2$:
-
-$$
-\begin{aligned}
-  \alpha\beta_1 &= 1 &&= \alpha\beta_2 \\
-  (bi) \cdot (c + di) &\triangleq 1_\mathcal{R} + 0_\mathcal{R}i &&\triangleq (bi) \cdot (x + yi) \\
-  (bd) + (bc)i &= 1_\mathcal{R} + 0_\mathcal{R}i &&= (by) + (bx)i.
-\end{aligned}
-$$
-
-We cannot have $b = 0\_\mathcal{R}$, as otherwise $bd \neq 1\_\mathcal{R}$. Thus, we instead have $c = 0\_\mathcal{R}$ and $x = 0\_\mathcal{R}$. We already know from above that $d = y$ by the uniqueness of additive inverses in $\mathcal{R}$ for $d - y = 0\_\mathcal{R}$. Thus:
-
-\\[\beta_1 = c + di = 0\_\mathcal{R} + di = 0\_\mathcal{R} + yi = x + yi = \beta_2.\\]
-
-In Case II, by the uniqueness of additive inverses in $\mathcal{R}$ we have that $c = x$. Again, we already know that $d = y$, so
-
-\\[\beta_1 = c + di = x + yi = \beta_2.\\]
-
-In both cases, this is a contradiction. Thus, such a solution must be unique.
+which is a contradiction. Thus, such a $\beta$ must be unique.
 
 ----
 
-**Problem 7.** If $z$ is a cube root of unity, then by definition $z^3 = 1$. We show this below:
+**Problem 7.** If $\alpha$ is a cube root of unity, then by definition $\alpha^3 = 1$. We show this below:
 
 $$
 \begin{aligned}
@@ -278,4 +208,205 @@ $$
 
 ----
 
-**Problem 8.** Forthcoming.
+**Problem 8.** If $\alpha$ is a square root of $i$, then by definition $\alpha^2 = i$. Suppose that such a $\alpha \in \mathcal{C}$ is defined as $\alpha = a + bi$, where $a, b \in \mathcal{R}$. We proceed as follows:
+
+$$
+\begin{aligned}
+  (a + bi)^2 &= i \\
+  (a + bi) \cdot (a + bi) &\triangleq 0_\mathcal{R} + 1_\mathcal{R} i \\
+  (a^2 - b^2) + (ab + ba)i &= 0_\mathcal{R} + 1_\mathcal{R} i && \text{(def. of $\cdot_\mathcal{C}$)} \\
+  (a^2 - b^2) + (ab + ab)i &= 0_\mathcal{R} + 1_\mathcal{R} i && \text{($\cdot_\mathcal{C}$ is comm.)} \\
+  (a^2 - b^2) + (2ab)i &= 0_\mathcal{R} + 1_\mathcal{R} i,
+\end{aligned}
+$$
+
+which leads to 
+
+\\[a^2 - b^2 = 0\_\mathcal{R} \enspace \text{and} \enspace 2ab = 1\_\mathcal{R}.\\]
+
+Because these are real numbers, the second equation tells us that $a = 1/2b$. Substitution into the first equation yields $4b^4 = 1$. Let $t \in \mathcal{R}$ be defined as $t = b^2$. Then, this equation reduces to $4t^2 = 1$. It follows that
+
+\\[t = \dfrac{1}{2} \enspace \text{or} \enspace t = -\dfrac{1}{2}.\\]
+
+Because $b \in \mathcal{R}$, it must be the case that $t = b^2 \geq 0$. As a result, the only solution is $b^2 = t = 1/2$. It follows that
+
+\\[b = \dfrac{1}{\sqrt{2}} \enspace \text{or} \enspace b = -\dfrac{1}{\sqrt{2}}.\\]
+
+Finally, since $a = 1/2b$, we have that
+
+\\[a = \dfrac{1}{\sqrt{2}} \enspace \text{or} \enspace a = -\dfrac{1}{\sqrt{2}} \enspace \text{as well}.\\]
+
+Putting the respective parts together, we develop two solutions for the square root of $i$:
+
+\\[\alpha = \dfrac{1}{\sqrt{2}} + \dfrac{1}{\sqrt{2}}i \quad \text{or} \quad \alpha = -\dfrac{1}{\sqrt{2}} -\dfrac{1}{\sqrt{2}}i.\\]
+
+----
+
+**Problem 9.** Denote such an $\mathbf{x} \in \mathcal{R}^4$ as $\mathbf{x} = (x_1, x_2, x_3, x_4)$, where each $x_i \in \mathcal{R}$ for $1 \leq i \leq 4$. Then, we can reason equationally to obtain the following result:
+
+$$
+\begin{aligned}
+  (4, -3, 1, 7) + 2\mathbf{x} &= (5, 9, -6, 8) \\
+  (4, -3, 1, 7) + 2(x_1, x_2, x_3, x_4) &= (5, 9, -6, 8) \\
+  2(x_1, x_2, x_3, x_4) &= (5, 9, -6, 8) - (4, -3, 1, 7) \\
+  (2x_1, 2x_2, 2x_3, 2x_4) &= (5, 9, -6, 8) + (-4, 3, -1, -7) \\
+  (2x_1, 2x_2, 2x_3, 2x_4) &= (1, 12, -7, 1).
+\end{aligned}
+$$
+
+This leads to four simple equations:
+
+\\[2x_1 = 1 \quad \text{and} \quad 2x_2 = 12 \quad \text{and} \quad 2x_3 = -7 \quad \text{and} \quad 2x_4 = 1.\\]
+
+We get four solutions in $\mathcal{R}$:
+
+\\[x_1 = \dfrac{1}{2} \quad \text{and} \quad x_2 = 6 \quad \text{and} \quad x_3 = -\dfrac{7}{2} \quad \text{and} \quad x_4 = \dfrac{1}{2}.\\]
+
+This leads us to the final result for $\mathbf{x}$:
+
+\\[\mathbf{x} = \left(\dfrac{1}{2}, 6, -\dfrac{7}{2}, \dfrac{1}{2}\right).\\]
+
+----
+
+**Problem 10.** Assume towards a contradiction that such a $\lambda \in \mathcal{C}$ exists. Then, we know that scalar multiplication over $\mathcal{F}^n$ distributes over the components of the list; in other words, for $\mathbf{z} \in \mathcal{C}^3$ such that $\mathbf{z} = (z_1, z_2, z_3)$ and $z_1, z_2, z_3 \in \mathcal{C}$,
+
+\\[\lambda(z_1, z_2, z_3) = (\lambda z_1, \lambda z_2, \lambda z_3).\\]
+
+Define $\lambda = a + bi$, where $a, b \in \mathcal{R}$. Then, we know that
+
+\\[(a + bi) \cdot (2 - 3i, 5 + 4i, -6 + 7i) = (12 - 5i, 7 + 22i, -32 - 9i).\\]
+
+In other words,
+
+$$
+\begin{aligned}
+  (a + bi) \cdot (2 - 3i) &= 12 - 5i \\
+  (a + bi) \cdot (5 + 4i) &= 7 + 22i \\
+  (a + bi) \cdot (-6 + 7i) &= -32 -9i.
+\end{aligned}
+$$
+
+Using the definition of $\cdot\_\mathcal{C}$, we have three simplified equations:
+
+$$
+\begin{aligned}
+  (2a + 3b) + (-3a + 2b)i &= 12 - 5i \\
+  (5a - 4b) + (4a + 5b)i &= 7 + 22i \\
+  (-6a - 7b) + (7a - 6b)i &= -32 -9i,
+\end{aligned}
+$$
+
+leading to the following system of six equations:
+
+$$
+\begin{aligned}
+  2a + 3b &= 12 &\quad -3a + 2b &= -5 \\
+  5a - 4b &= 7 &\quad 4a + 5b &= 22 \\
+  -6a - 7b &= -32 &\quad 7a - 6b &= -9.
+\end{aligned}
+$$
+
+Each row of equations yields a different set of solutions in $a$ and $b$:
+
+$$
+\begin{aligned}
+  a = 3 \enspace &\text{and} \enspace b = 2 \\
+  a = 3 \enspace &\text{and} \enspace b = 2 \\
+  a = \dfrac{129}{85} \enspace &\text{and} \enspace b = \dfrac{278}{85}.
+\end{aligned}
+$$
+
+Because $\dfrac{129}{85} \neq 3$ and $\dfrac{278}{85} \neq 2$, such a $\lambda$ cannot exist, as if it did then the equations would not be satisfiable.
+
+----
+
+**Problem 11.** Define $\mathbf{x}, \mathbf{y}, \mathbf{z} \in \mathcal{F}^n$ such that:
+- $\mathbf{x} = (x_1, \dots, x_n)$, &nbsp; where each $x_i \in \mathcal{F}$ for $1 \leq i \leq n$;
+- $\mathbf{y} = (y_1, \dots, y_n)$, &nbsp; where each $y_i \in \mathcal{F}$ for $1 \leq i \leq n$;
+- $\mathbf{z} = (z_1, \dots, z_n)$, &nbsp; where each $z_i \in \mathcal{F}$ for $1 \leq i \leq n$.
+
+Then, it follows that
+
+$$
+\begin{aligned}
+  (\mathbf{x} + \mathbf{y}) + \mathbf{z} &\triangleq [(x_1, \dots, x_n) + (y_1, \dots, y_n)] + (z_1, \dots, z_n) \\
+  &= \bigg((x_1 + y_1), \dots, (x_n + y_n)\bigg) + (z_1, \dots, z_n) && \text{(def. of $+_{\mathcal{F}^n}$)} \\
+  &= (w_1, \dots, w_n) + (z_1, \dots, z_n) \\
+  &= \bigg((w_1 + z_1), \dots, (w_n + z_n)\bigg) && \text{(def. of $+_{\mathcal{F}^n}$)} \\
+  &= \bigg([(x_1 + y_1) + z_1], \dots, [(x_n + y_n) + z_n]\bigg) \\
+  &= \bigg([x_1 + (y_1 + z_1)], \dots, [x_n + (y_n + z_n)]\bigg) && \text{($+_{\mathcal{F}}$ is assoc.)} \\
+  &= \bigg((x_1 + s_1), \dots, (x_n + s_n)\bigg) \\
+  &= (x_1, \dots, x_n) + (s_1, \dots, s_n) && \text{(def. of $+_{\mathcal{F}}$)} \\
+  &= (x_1, \dots, x_n) + \bigg((y_1 + z_1), \dots, (y_n + z_n)\bigg) \\
+  &= (x_1, \dots, x_n) + [(y_1, \dots, y_n) + (z_1, \dots, z_n)] && \text{(def. of $+_{\mathcal{F}}$)} \\
+  &\triangleq \mathbf{x} + (\mathbf{y} + \mathbf{z}),
+\end{aligned}
+$$
+
+where we used intermediate variables $w_i = x_i + y_i$ and $s_i = y_i + z_i$ in $\mathcal{F}$ for all $1 \leq i \leq n$ to clarify the flow of logic.
+
+----
+
+**Problem 12.** Following the approach in Problem 11, define $\mathbf{x} \in \mathcal{F}^n$ as $\mathbf{x} = (x_1, \dots, x_n)$, where each $x_i \in \mathcal{F}$ for $1 \leq i \leq n$. Moreover, we will take $a, b \in \mathcal{F}$. Then, it follows that
+
+$$
+\begin{aligned}
+  (ab)\mathbf{x} &\triangleq (ab) \cdot (x_1, \dots, x_n) \\
+  &= \bigg((ab)x_1, \dots, (ab)x_n\bigg) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &= \bigg(a(bx_1), \dots, a(bx_n)\bigg) && \text{($\cdot_{\mathcal{F}}$ is assoc.)} \\
+  &= a \cdot (bx_1, \dots, bx_n) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &= a \cdot \bigg(b \cdot (x_1, \dots, x_n)\bigg) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &\triangleq a(b\mathbf{x}).
+\end{aligned}
+$$
+
+----
+
+**Problem 13.** Define $\mathbf{x} \in \mathcal{F}^n$ as $\mathbf{x} = (x_1, \dots, x_n)$, where each $x_i \in \mathcal{F}$ for $1 \leq i \leq n$. Then, it follows that
+
+$$
+\begin{aligned}
+  1 \cdot \mathbf{x} &\triangleq 1 \cdot (x_1, \dots, x_n) \\
+  &= (1 \cdot x_1, \dots, 1 \cdot x_n) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &= (x_1 \cdot 1, \dots, x_n \cdot 1) && \text{($\cdot_{\mathcal{F}}$ is comm.)} \\
+  &= (x_1, \dots, x_n) && \text{(id. for $\cdot_\mathcal{F}$)} \\
+  &\triangleq \mathbf{x}.
+\end{aligned}
+$$
+
+----
+
+**Problem 14.** Following the approach in Problem 11, define $\mathbf{x}, \mathbf{y} \in \mathcal{F}^n$ such that:
+- $\mathbf{x} = (x_1, \dots, x_n)$, &nbsp; where each $x_i \in \mathcal{F}$ for $1 \leq i \leq n$;
+- $\mathbf{y} = (y_1, \dots, y_n)$, &nbsp; where each $y_i \in \mathcal{F}$ for $1 \leq i \leq n$.
+
+Further take some $\lambda \in \mathcal{F}$. Then, it follows that
+
+$$
+\begin{aligned}
+  \lambda(\mathbf{x} + \mathbf{y}) &\triangleq \lambda \cdot \left[(x_1, \dots, x_n) + (y_1, \dots, y_n)\right] \\
+  &= \lambda \cdot \bigg((x_1 + y_1), \dots, (x_n + y_n)\bigg) && \text{(def. of $+_{\mathcal{F}^n}$)} \\
+  &= \bigg(\lambda (x_1 + y_1), \dots, \lambda (x_n + y_n)\bigg) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &= \bigg((\lambda x_1 + \lambda y_1), \dots, (\lambda x_n + \lambda y_n)\bigg) && \text{($\cdot_\mathcal{F}$ is distr.)} \\
+  &= (\lambda x_1, \dots, \lambda x_n) + (\lambda y_1, \dots, \lambda y_n) && \text{(def. of $+_{\mathcal{F}^n}$)} \\
+  &= \lambda \cdot (x_1, \dots, x_n) + \lambda \cdot (y_1, \dots, y_n) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &\triangleq \lambda \mathbf{x} + \lambda \mathbf{y}.
+\end{aligned}
+$$
+
+----
+
+**Problem 15.** Following the approach in Problem 12, define $\mathbf{x} \in \mathcal{F}^n$ as $\mathbf{x} = (x_1, \dots, x_n)$, where each $x_i \in \mathcal{F}$ for $1 \leq i \leq n$. Moreover, we will take $a, b \in \mathcal{F}$. Then, it follows that
+
+$$
+\begin{aligned}
+  (a + b)\mathbf{x} &\triangleq (a + b) \cdot (x_1, \dots, x_n) \\
+  &= \bigg((a + b)x_1, \dots, (a + b)x_n\bigg) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &= \bigg(x_1(a + b), \dots, x_n(a + b)\bigg) && \text{($\cdot_{\mathcal{F}}$ is comm.)} \\
+  &= \bigg((x_1 a + x_1 b), \dots, (x_n a + x_n b)\bigg) && \text{($\cdot_{\mathcal{F}}$ is distr.)} \\
+  &= \bigg((a x_1 + b x_1), \dots, (a x_n + b x_n)\bigg) && \text{($\cdot_{\mathcal{F}}$ is comm.)} \\
+  &= (ax_1, \dots, ax_n) + (bx_1, \dots, bx_n) && \text{(def. of $+_{\mathcal{F}^n}$)} \\
+  &= a \cdot (x_1, \dots, x_n) + b \cdot (x_1, \dots, x_n) && \text{(def. of $\cdot_{\mathcal{F}^n}$)} \\
+  &\triangleq a\mathbf{x} + b\mathbf{x}.
+\end{aligned}
+$$
