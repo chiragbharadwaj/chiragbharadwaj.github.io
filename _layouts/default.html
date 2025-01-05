@@ -77,7 +77,9 @@
       {% unless page.hide_footer %}
       <hr/>
       <footer>
-        This page was generated using Jekyll, Markdown, and KaTeX.
+        This page was generated using Jekyll, Markdown, and $\KaTeX$.
+        <br>
+        Page layout inspired by <a href="https://www.tonyduan.com/">Tony Duan</a>.
       </footer>
       {% endunless %}
     </div>
@@ -93,7 +95,10 @@
           {left: "$$", right: "$$", display: true},
           {left: "\\[", right: "\\]", display: true},
           {left: "$", right: "$", display: false}
-        ]
+        ],
+        macros: {
+          '\\neq': '\\mathrel{\\char`≠}'
+        }
       });
     </script>
     {% endif %}

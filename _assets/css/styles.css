@@ -7,7 +7,45 @@
        url('../fonts/arizonia-regular.woff')  format('woff');
 }
 
-/* Merriweather: serif, for plain readable text */
+/* Crimson Pro: serif, for plain readable text */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/crimson-pro-light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/crimson-pro-light-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/crimson-pro-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/crimson-pro-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/crimson-pro-bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/crimson-pro-bold-italic.woff2') format('woff2');
+}
+
+/* Merriweather: serif alternative, again for plain readable text */
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
@@ -273,4 +311,21 @@ img.resize {
 /* katex: for rendering equations dynamically on posts */
 .katex {
   font-size: 1.1em !important;
+}
+
+/* solution: custom CSS overrides for solutions, where serif fonts are better */
+.solution {
+  font-family: 'Crimson Pro', 'Merriweather', 'Palatino', 'Book Antiqua', 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.solution strong {
+  font-weight: 700;
+}
+.solution .katex {
+  font-size: 0.9em !important;
+}
+.solution ul {
+  margin-top: -1em;
+  margin-bottom: 1em;
 }
