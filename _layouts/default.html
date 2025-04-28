@@ -77,7 +77,11 @@
       {% unless page.hide_footer %}
       <hr/>
       <footer>
+        {% if page.katex or layout.katex %}
         This page was generated using Jekyll, Markdown, and $\KaTeX$.
+        {% else %}
+        This page was generated using Jekyll, Markdown, and KaTeX.
+        {% endif %}
         <br>
         Page layout inspired by <a href="https://www.tonyduan.com/">Tony Duan</a>.
       </footer>
