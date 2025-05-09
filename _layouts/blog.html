@@ -9,6 +9,8 @@ katex: true
 </h3>
 <hr/>
 
+{{content}}
+
 {% assign this_path = page.path | replace: 'index.md', 'posts' %}
 {% for post in site.pages reversed %}
   {% assign that_path_parts = post.path | split: '/' %}
@@ -16,15 +18,13 @@ katex: true
   {% assign that_path = that_path_parts | slice: 0, new_size | join: '/' %}
   {% if that_path == this_path %}
     <h2 style="margin-bottom: 0em">
-      <a href="{{ post.url }}">{{ post.post_name }}</a>
+      <a href="{{ post.url }}" style="color: #607A27">{{ post.post_name }}</a>
     </h2>
     <h3 style="color: #444444; margin-bottom: 0.25em">
       {{ post.date | date: 'posted on %-d %b %Y' }}
     </h3>
-    <div style="font-style: italic; margin-bottom: 1em">
+    <div style="font-family: 'Crimson Pro'; font-size: 15px; font-style: italic; color: #606060; margin-bottom: 1em">
       {{ post.excerpt }}
     </div>
   {% endif %}
 {% endfor %}
-
-{{content}}
