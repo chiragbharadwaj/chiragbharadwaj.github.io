@@ -249,6 +249,19 @@ h1, h2, h3 {
   color: #00204e;
 }
 
+/* blockquote: for quoting and highlighting important phrases */
+blockquote {
+  border-left: 3px solid #cccccc;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+blockquote p {
+  font-size: 110%;
+  font-style: italic;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
 /* code: for in-line syntax highlighting and blocked code snippets */
 code.language-plaintext {
   font-family: 'Inconsolata', monospace;
