@@ -18,7 +18,7 @@ katex: true
   {% assign that_path = that_path_parts | slice: 0, new_size | join: '/' %}
   {% if that_path == this_path %}
     <h2 style="margin-bottom: 0em">
-      <a href="{{ post.url }}" style="color: #607A27">{{ post.post_name }}</a>
+      <a href="{{ post.url }}" style="color: #607A27">{{ post.post_no }}. {{ post.post_name }}</a>
     </h2>
     <h3 style="color: #444444; margin-bottom: 0.25em">
       {{ post.date | date: 'posted on %-d %b %Y' }}

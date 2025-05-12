@@ -2,6 +2,7 @@
 layout: post
 title: blogs | finance | note 2
 date: 2025-05-09
+post_no: 0B
 post_name: Constructing the high-level picture
 excerpt: The golden question that we're aiming to answer is around the necessary and sufficient conditions under which one can retire. Uncovering the exact answer to this question will involve significant analysis of several pieces of information; some of these will be in one's control (e.g. salary, expenditures) while others will not (e.g. inflation, market returns). Combining both and running simulations will be non-trivial.
 ---
