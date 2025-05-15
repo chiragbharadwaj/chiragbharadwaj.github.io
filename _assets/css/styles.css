@@ -283,6 +283,8 @@ div.highlighter-rouge {
 
 /* table: for structured content that is organized into rows/columns */
 table {
+  display: block;
+  overflow: auto hidden;
   border-collapse: separate;
   border-spacing: 1em 0;
   margin-bottom: 1.25em;
@@ -297,6 +299,10 @@ td {
   border-collapse: separate;
   border-spacing: 1em 0;
   margin-bottom: 1.25em;
+}
+.mono-table {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
 }
 
 /* a: for links to other pages, websites, etc. */
@@ -350,4 +356,7 @@ img.resize {
 .solution ul {
   margin-top: -1em;
   margin-bottom: 1em;
+}
+.solution table {
+  overflow: auto hidden;
 }

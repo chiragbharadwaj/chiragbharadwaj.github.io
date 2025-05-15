@@ -55,7 +55,8 @@ With that in mind, let's construct our expected expense sequence. Like last time
 
 We've already worked this one out in the previous installment, so let's reproduce it verbatim:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Rent | Housing | -- | $2900 | -- |
 | Insurance | Housing | -- | -- | $200 |
@@ -70,15 +71,15 @@ We've already worked this one out in the previous installment, so let's reproduc
 | Bus fares | Transportation | -- | $25 | -- |
 | MTA fares | Transportation | -- | $29 | -- |
 | PATH fares | Transportation | $30 | -- | -- |
-| Clothing | Personal upkeep | -- | -- | $250 |
-| Self-care | Personal upkeep | -- | $40 | -- |
-| Cleaning supplies | Household upkeep | -- | $25 | -- |
-| Washing supplies | Household upkeep | -- | -- | $40 |
-| Laundry | Household upkeep | -- | $15 | -- |
-| Fabrics | Household upkeep | -- | -- | $100 |
-| Around the house | Household upkeep | -- | -- | $50 |
-| Gym membership | Subscriptions | -- | $179.91 | -- |
-| Cell phone plan | Subscriptions | -- | $50.00 | -- |
+| Clothing | Personal | -- | -- | $250 |
+| Self-care | Personal | -- | $40 | -- |
+| Cleaning | Household | -- | $25 | -- |
+| Washing | Household | -- | -- | $40 |
+| Laundry | Household | -- | $15 | -- |
+| Fabrics | Household | -- | -- | $100 |
+| Homeliness | Household | -- | -- | $50 |
+| Gym fees | Subscriptions | -- | $179.91 | -- |
+| Cell phone | Subscriptions | -- | $50.00 | -- |
 | Board games | Subscriptions | -- | -- | $150.00 |
 | Discord Nitro | Subscriptions | -- | -- | $106.62 |
 | Amazon Prime | Subscriptions | -- | -- | $148.21 |
@@ -94,14 +95,15 @@ Not much more to add.
 
 ### Chart 2: Working while owning
 
-TBD
+The next stage is moving on from renting an apartment towards proper home ownership. This could be a condo, a townhome, or even a single-family home. I've used an estimated mortgage cost, but this could very well vary. The idea is to have the items structured correctly, and later on we can tweak the exact numbers as needed.
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Mortgage | Housing | -- | $3600 | -- |
 | HoA fees | Housing | -- | $200 | -- |
 | Property tax | Housing | -- | $850 | -- |
-| Insurance | Housing | -- | -- | $200 |
+| Insurance | Housing | -- | -- | $300 |
 | Gas | Housing | -- | $60 | -- |
 | Electric | Housing | -- | $80 | -- |
 | Water | Housing | -- | $70 | -- |
@@ -114,15 +116,15 @@ TBD
 | Tolls | Transportation | -- | -- | $20 |
 | MTA fares | Transportation | -- | $29 | -- |
 | PATH fares | Transportation | $30 | -- | -- |
-| Clothing | Personal upkeep | -- | -- | $250 |
-| Self-care | Personal upkeep | -- | $40 | -- |
-| Cleaning supplies | Household upkeep | -- | $25 | -- |
-| Washing supplies | Household upkeep | -- | -- | $40 |
-| Laundry | Household upkeep | -- | $15 | -- |
-| Fabrics | Household upkeep | -- | -- | $100 |
-| Around the house | Household upkeep | -- | -- | $50 |
-| Gym membership | Subscriptions | -- | $179.91 | -- |
-| Cell phone plan | Subscriptions | -- | $50.00 | -- |
+| Clothing | Personal | -- | -- | $250 |
+| Self-care | Personal | -- | $40 | -- |
+| Cleaning | Household | -- | $25 | -- |
+| Washing | Household | -- | -- | $40 |
+| Laundry | Household | -- | $15 | -- |
+| Fabrics | Household | -- | -- | $100 |
+| Homeliness | Household | -- | -- | $50 |
+| Gym fees | Subscriptions | -- | $179.91 | -- |
+| Cell phone | Subscriptions | -- | $50.00 | -- |
 | Board games | Subscriptions | -- | -- | $150.00 |
 | Discord Nitro | Subscriptions | -- | -- | $106.62 |
 | Amazon Prime | Subscriptions | -- | -- | $148.21 |
@@ -134,17 +136,18 @@ TBD
 | Appliances | Miscellaneous | -- | -- | $350 |
 | Vacation | Miscellaneous | -- | -- | $4500 |
 
-TBD
+Some notable additions to this chart vis-a-vis the first one include the HoA fees, separation of utility fees, and an implied car purchase (with associated costs). These do all add up -- home ownership hemorrhages a lot of additional expenses, but does accord some benefits. For example, practicing an instrument or listening to music at odd hours of the day become more viable in a detached housing setup (such as a landed property). The above chart does assume a single-family home purchase. However, in the case of a condo in a major city, car ownership may not be necessary.
 
 ### Chart 3: Early retirement
 
-TBD
+As we stated in an earlier post, we're structured our costs around an assumption of retirement within the United States. For folks who have multiple citizenships or family around the world, it could be possible to retire abroad (in a lower cost-of-living region). This isn't the case for my personal situation, so I have assumed below a retirement within the lower 48. As much as I'd love to retire in Hawaii, it just doesn't make sense from a groceries or gasoline standpoint.
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | HoA fees | Housing | -- | $200 | -- |
 | Property tax | Housing | -- | $850 | -- |
-| Insurance | Housing | -- | -- | $200 |
+| Insurance | Housing | -- | -- | $300 |
 | Gas | Housing | -- | $60 | -- |
 | Electric | Housing | -- | $80 | -- |
 | Water | Housing | -- | $70 | -- |
@@ -156,16 +159,16 @@ TBD
 | Fuel | Transportation | -- | -- | $35 |
 | Tolls | Transportation | -- | -- | $20 |
 | MTA fares | Transportation | -- | $29 | -- |
-| Bronze health plan | Personal upkeep | -- | $400 | -- |
-| Clothing | Personal upkeep | -- | -- | $250 |
-| Self-care | Personal upkeep | -- | $40 | -- |
-| Cleaning supplies | Household upkeep | -- | $25 | -- |
-| Washing supplies | Household upkeep | -- | -- | $40 |
-| Laundry | Household upkeep | -- | $15 | -- |
-| Fabrics | Household upkeep | -- | -- | $100 |
-| Around the house | Household upkeep | -- | -- | $50 |
-| Gym membership | Subscriptions | -- | $179.91 | -- |
-| Cell phone plan | Subscriptions | -- | $50.00 | -- |
+| Bronze health plan | Personal | -- | $400 | -- |
+| Clothing | Personal | -- | -- | $250 |
+| Self-care | Personal | -- | $40 | -- |
+| Cleaning | Household | -- | $25 | -- |
+| Washing | Household | -- | -- | $40 |
+| Laundry | Household | -- | $15 | -- |
+| Fabrics | Household | -- | -- | $100 |
+| Homeliness | Household | -- | -- | $50 |
+| Gym fees | Subscriptions | -- | $179.91 | -- |
+| Cell phone | Subscriptions | -- | $50.00 | -- |
 | _The Economist_ | Subscriptions | -- | -- | $265.50 |
 | Books | Hobbies | -- | -- | $400 |
 | Art supplies | Hobbies | -- | -- | $500 |
@@ -174,17 +177,26 @@ TBD
 | Appliances | Miscellaneous | -- | -- | $350 |
 | Vacation | Miscellaneous | -- | -- | $8000 |
 
-TBD
+I will not retire before paying off the house purchase. This could involve some larger defrays towards the end of my working period, so that I can minimize the expenses in retirement. As Papa ERN [says][ern-mortgages]:
+
+> mortgages and FIRE don't work well together
+
+We'll discuss why in a future installment. For now, let's assume that we safely retire the year after the house is paid off. Note that this _substantially_ lowers the cost of living in retirement, as monthly payments no longer exist. Of course, there are still upkeep costs, but on the whole they comprise a smaller fraction of the total annual expenses.
+
+There are no more PATH fares, as in retirement I'll no longer go into work. I'll assume that I still go into New York City for leisure at a similar frequency to before (about 5 times a month; I'm not very social). The other costs remain relatively static (hobbies, entertainment, etc.). I've upped the vacation expenses to about double its value -- with so much free time, I can probably travel a bit more (and potentially [Airbnb my house][airbnb] while doing so, although it gets complicated very fast).
+
+Finally, take a note of the **Bronze health plan**. I'll assume that Obamacare subsidied and its ilk won't really exist by the time my retirement rolls around. Better to assume that one will have to purchase a private healthcare plan. In my 40s and 50s, I don't expect to get too sick, so a simpler and lower-premium plan should work. We'll get more into this later on, but I just want to put down a framework as quickly as possible. Remember: everything will be a tweakable knob!
 
 ### Chart 4: Late retirement
 
-TBD
+Finally, after age 60, we enter the late retirement period. The nature of costs is not too different at this point, but I did want to separate out this time period for other reasons (which we'll see in the opposite version of the expenses chart: the **income chart**).
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | HoA fees | Housing | -- | $200 | -- |
 | Property tax | Housing | -- | $850 | -- |
-| Insurance | Housing | -- | -- | $200 |
+| Insurance | Housing | -- | -- | $300 |
 | Gas | Housing | -- | $60 | -- |
 | Electric | Housing | -- | $80 | -- |
 | Water | Housing | -- | $70 | -- |
@@ -195,22 +207,24 @@ TBD
 | Car insurance | Transportation | -- | -- | $125 |
 | Fuel | Transportation | -- | -- | $35 |
 | Tolls | Transportation | -- | -- | $20 |
-| Gold health plan | Personal upkeep | -- | $950 | -- |
-| Qualified medical | Personal upkeep | -- | -- | $20000 |
-| Clothing | Personal upkeep | -- | -- | $250 |
-| Self-care | Personal upkeep | -- | $40 | -- |
-| Cleaning supplies | Household upkeep | -- | $25 | -- |
-| Washing supplies | Household upkeep | -- | -- | $40 |
-| Laundry | Household upkeep | -- | $15 | -- |
-| Fabrics | Household upkeep | -- | -- | $100 |
-| Around the house | Household upkeep | -- | -- | $50 |
-| Cell phone plan | Subscriptions | -- | $50 | -- |
+| Gold health plan | Personal | -- | $950 | -- |
+| Qualified medical | Personal | -- | -- | $20000 |
+| Clothing | Personal | -- | -- | $250 |
+| Self-care | Personal | -- | $40 | -- |
+| Cleaning | Household | -- | $25 | -- |
+| Washing | Household | -- | -- | $40 |
+| Laundry | Household | -- | $15 | -- |
+| Fabrics | Household | -- | -- | $100 |
+| Homeliness | Household | -- | -- | $50 |
+| Cell phone | Subscriptions | -- | $50 | -- |
 | Books | Hobbies | -- | -- | $400 |
 | Art supplies | Hobbies | -- | -- | $500 |
 | Piano scores | Hobbies | -- | -- | $100 |
 | Vacation | Miscellaneous | -- | -- | $6000 |
 
-TBD
+Notably, we've kept everything more or less the same as the third expenses chart, but we've decreased the vacation allotment from its peak in our 40s. Additionally, we've removed some expenses around gym and entertainment. At a more advanced age, I expect to spend more time walking and less time running or lifting. That said, there are apparently [some benefits][old-lifter] of lifting weights even deep into old age, so maybe it's not such a good idea to stop.
+
+Finally, we've also upgraded to the **Gold health plan** and added $\\$20000$ in qualified medical expenses per year. In my opinion, this is actually pretty unrealistic: anyone who is spending that much money per year on medicine likely won't live too long without substantial [lifestyle changes][chronic-conditions]. That said, we want to get a conservative lower bound via this kind of worst-case analysis. As a result, the real situation might well play out far better than predicted.
 
 ## Projecting the expense charts into the future
 
@@ -221,5 +235,9 @@ Later on, we'll construct a full [time series][panels] of longitudinal data acro
 [penalties]: https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-exceptions-to-tax-on-early-distributions
 [hyperparameters]: https://en.wikipedia.org/wiki/Hyperparameter_optimization
 [bachelors]: https://www.washingtonpost.com/lifestyle/2023/08/24/bachelor-married-93-potenzano-elkind/
+[ern-mortgages]: https://earlyretirementnow.com/2017/10/11/the-ultimate-guide-to-safe-withdrawal-rates-part-21-mortgage-in-retirement/
+[airbnb]: https://www.bogleheads.org/forum/viewtopic.php?t=414701
+[old-lifter]: https://www.youtube.com/watch?v=assAa1bXhqU
+[chronic-conditions]: https://www.cdc.gov/pcd/issues/2024/23_0267.htm
 [panels]: https://en.wikipedia.org/wiki/Panel_data
 [mcmc]: https://www.bogleheads.org/forum/viewtopic.php?p=6091112#p6091112

@@ -15,7 +15,8 @@ One of the first ways to optimize the pathway to retirement is to have a strong 
 
 To begin, we'll want to create space for something that visually resembles the following chart:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/week | $/month | $/year |
 | --- | --- | --- | --- | --- |
 | $x_1$ | $\pi_1$ | $c_{w,1}$ | $c_{m,1}$ | $c_{y,1}$ |
 | $x_2$ | $\pi_2$ | $c_{w,2}$ | $c_{m,2}$ | $c_{y,2}$ |
@@ -46,8 +47,8 @@ Let's work through an example step by step. Individual expenses are highly varia
 - housing
 - food and groceries
 - transportation
-- personal upkeep
-- household upkeep
+- Personal
+- Household
 - subscriptions and memberships
 - hobbies
 - miscellaneous costs
@@ -58,7 +59,8 @@ The ultimate source of truth for our expenses will likely come from our [credit 
 
 Housing is a bit complicated, so let's start with something simpler. Broadly, there are really only two things at play here: **buying groceries** and **eating out**. Groceries include the items bought for meals as well as for hosting events sporadically. Similarly, eating out might include the bill at restaurants but also at bars (if that's [your scene][bars-declining]). Let's take a look:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Groceries | Food | $100 | -- | -- |
 | Restaurants | Food | $50 | -- | -- |
@@ -73,7 +75,8 @@ Now, you might be surprised to see a single person spending $\\$150$ per week on
 
 We proceed. Generally, at least in the U.S., folks tend to have three to four expenses related to transportation: **fuel** (gas), **bus fares**, sometimes **train tickets** (in the Northeast), and optionally **tolls** (some states have mostly freeways). However, with the advent of hybrid and especially [electric vehicles][evs], it may very well be the case that the fuel incidence on one's budget is lower than in the past. Charging costs would ideally be included, too. It's difficult to categorize, as it could be drawing from a home power source in some cases (so should it be a housing cost?). For now, "fuel" will encompass <u>both</u> types of costs: gas and electric charging alike.
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Car rentals | Transportation | -- | -- | $125 |
 | Fuel | Transportation | -- | -- | $35 |
@@ -88,14 +91,15 @@ However, when living near New York City, bus fares and train tickets _are_ a mor
 
 One last point: if you _do_ own a car, you will almost certainly be paying monthly **car insurance**. Additionally, if the car was financed, you'll have monthly **loan payments**. As we can see, what we wrote is completely different from the description preceding the table. There is a strong degree of versatility available per category, but the key is to remain honest.
 
-### Personal upkeep
+### Personal
 
 As the name of the category suggests, the expenses therein exhibit a high degree of variegation. Most people probably spend some amount of money on **clothing** per year for sure (including outerwear such as jackets or shoes). Then, there are products used for **personal grooming** (such as deodorant, hair products, makeup, nails, body soap, shampoo and conditioner, etc.) which are likely monthly purchases. This leads to a relatively simple chart:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
-| Clothing | Personal upkeep | -- | -- | $250 |
-| Self-care | Personal upkeep | -- | $40 | -- |
+| Clothing | Personal | -- | -- | $250 |
+| Self-care | Personal | -- | $40 | -- |
 
 Actually, I doubt I spend even $\\$250$ per year on clothing. I still wear shirts, pants, and shoes from 2022; my fall and winter coats are from 2013. Still, it's good to give an upper bound estimate sometimes. Things like watches, undershirts, gym clothes, socks, etc., all add up. I don't have an exact itemized bill on my credit provider's portal, but I can roughly estimate how much I'm spending based on the purchase amounts at Uniqlo and J. Crew.
 
@@ -103,30 +107,32 @@ As for self-care products... it's hard to say. I'm not the type to set up recurr
 
 By the way, if you take **medicine** or buy multivitamins, it's worth including them here too. I try pretty hard to avoid any unnecessary medication, so this is empty for me for now. You'll also notice that I haven't included any dentist fees, doctor's visits, or emergency room fees. At the moment, I'm fortunte to be in good health and have nearly zero costs per year. However, I do still have to submit a co-pay for annual checkups and the like. This is handled via a combination of insurance and a health savings account (HSA). We'll discuss this in great detail later on, but in terms of out-of-pocket costs I don't pay anything for **healthcare**, as insurance from my employer covers the usual.
 
-### Household upkeep
+### Household
 
-Unlike personal upkeep, household upkeep refers to the products that are not related to personal care. For example, some items might include **cleaning supplies** (such as Lysol, Swiffer, mops, brooms), **washing supplies** (hand soap, dish soap), **laundry** (Tide pods, dryer sheets, fabric softener, potentially quarters), and **fabrics** (hand towels, face towels, bedsheets need to all be replaced about once a year). It's important to include lightbulbs, garbage liners, and maybe water bottles under a broader **around the house** umbrella. And so another chart arrives:
+Unlike Personal, Household refers to the products that are not related to personal care. For example, some items might include **Cleaning** (such as Lysol, Swiffer, mops, brooms), **Washing** (hand soap, dish soap), **laundry** (Tide pods, dryer sheets, fabric softener, potentially quarters), and **fabrics** (hand towels, face towels, bedsheets need to all be replaced about once a year). It's important to include lightbulbs, garbage liners, and maybe water bottles under a broader **Homeliness** umbrella. And so another chart arrives:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
-| Cleaning supplies | Household upkeep | -- | $25 | -- |
-| Washing supplies | Household upkeep | -- | -- | $40 |
-| Laundry | Household upkeep | -- | $15 | -- |
-| Fabrics | Household upkeep | -- | -- | $100 |
-| Around the house | Household upkeep | -- | -- | $50 |
+| Cleaning | Household | -- | $25 | -- |
+| Washing | Household | -- | -- | $40 |
+| Laundry | Household | -- | $15 | -- |
+| Fabrics | Household | -- | -- | $100 |
+| Homeliness | Household | -- | -- | $50 |
 
 Wow, there are a lot of hidden costs to living! It's not just the sticker price on the apartment, condo, townhouse, or single-family home -- these maintenance costs really add up. One of the common ways to remain frugal is to cut back on the maintenance costs, but I'd personally advise against it. I'd rather live someplace with a cheaper month-to-month rent but still maintain a clean, fresh living environment.
 
-Some folks instead elect to pay for a **cleaning service**. Usually I've seen these cost around $\\$125$ for a once-a-month visit. This is pretty expensive in my opinion, so I clean my place myself. It's possible that the cleaning service may bring some of their own cleaning supplies, but nonetheless you'd probably still maintain your own supplies for laundry, fabrics, etc.
+Some folks instead elect to pay for a **cleaning service**. Usually I've seen these cost around $\\$125$ for a once-a-month visit. This is pretty expensive in my opinion, so I clean my place myself. It's possible that the cleaning service may bring some of their own Cleaning, but nonetheless you'd probably still maintain your own supplies for laundry, fabrics, etc.
 
 ### Subscriptions and memberships
 
-Ah, yes. There's [no doubt][gen-z] that younger folks maintain a variety of digital memberships in their portfolio. The subscription economy can be quite expensive, and it's very important to track these costs. Amazon Prime, Netflix, Hulu, HBO, Disney+, AppleTV... the list goes on. **Subscriptions** are going to be an important part of costs. Similarly, **memberships** form the other half of these core (monthly) recurring expenses. For example, a gym membership or a country club membership would also count. Here's my chart, using sticker prices:
+Ah, yes. There's [no doubt][gen-z] that younger folks maintain a variety of digital memberships in their portfolio. The subscription economy can be quite expensive, and it's very important to track these costs. Amazon Prime, Netflix, Hulu, HBO, Disney+, AppleTV... the list goes on. **Subscriptions** are going to be an important part of costs. Similarly, **memberships** form the other half of these core (monthly) recurring expenses. For example, a Gym fees or a country club membership would also count. Here's my chart, using sticker prices:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
-| Gym membership | Subscriptions | -- | $165 | -- |
-| Cell phone plan | Subscriptions | -- | $50 | -- |
+| Gym fees | Subscriptions | -- | $165 | -- |
+| Cell phone | Subscriptions | -- | $50 | -- |
 | Board games | Subscriptions | -- | -- | $150 |
 | Discord Nitro | Subscriptions | -- | -- | $100 |
 | Amazon Prime | Subscriptions | -- | -- | $139 |
@@ -134,16 +140,17 @@ Ah, yes. There's [no doubt][gen-z] that younger folks maintain a variety of digi
 
 Actually, it turns out that this is all a lie: some subscriptions [charge sales tax][sales-tax], at least in New Jersey. The billing companies know which tax laws to apply based on where your credit card is registered. Here's an updated version of the chart with a 6.625% sales tax tacked on to reflect that revelation:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
-| Gym membership | Subscriptions | -- | $179.91 | -- |
-| Cell phone plan | Subscriptions | -- | $50.00 | -- |
-| Board games | Subscriptions | -- | -- | $150.00 |
-| Discord Nitro | Subscriptions | -- | -- | $106.62 |
-| Amazon Prime | Subscriptions | -- | -- | $148.21 |
-| _The Economist_ | Subscriptions | -- | -- | $265.50 |
+| Gym fees | Subscriptions | -- | $179.91 | -- |
+| Cellular | Subscriptions | -- | $50.00 | -- |
+| Games | Subscriptions | -- | -- | $150.00 |
+| Nitro | Subscriptions | -- | -- | $106.62 |
+| Prime | Subscriptions | -- | -- | $148.21 |
+| _Economist_ | Subscriptions | -- | -- | $265.50 |
 
-I don't really watch any television, as most of my entertainment either comes from books, digital articles, YouTube, or board games. As a result, I don't have any subscriptions to any of the usual streaming services that are popular today. Some notable costs above include a $\\$180$ gym membership, a Discord Nitro subscription, and a (very!) expensive subscription to _The Economist_, which probably makes up for the lack of the usual suspects -- and more.
+I don't really watch any television, as most of my entertainment either comes from books, digital articles, YouTube, or board games. As a result, I don't have any subscriptions to any of the usual streaming services that are popular today. Some notable costs above include a $\\$180$ Gym fees, a Discord Nitro subscription, and a (very!) expensive subscription to _The Economist_, which probably makes up for the lack of the usual suspects -- and more.
 
 The [gym][gym] I frequent costs $\\$225$ per month, and my insurance reimburses policyholders $\\$60$ per month if they attend 12 or more times in that month. This encourages folks to (presumably) remain healthy, which in the long-term would cost the insurance company less in emergency pay-outs. As for Nitro, I do spend a [lot of time][introverts] online and derive enjoyment from the expressiveness that a premium subscription to Discord proffers. Finally, _The Economist_ is, in my opinion, one of the only truly global news troves available today. I have yet to find a suitable replacement that is more friendly on the budget, so this is one of my few splurges as a relatively frugal person. I haven't managed to find a friend with whom to split the annual subscription cost in the company I keep, but I'm always on the hunt!
 
@@ -155,7 +162,8 @@ There's no doubt that, should my annual costs be too extreme, this would be the 
 
 Hobbies can be another major source of expenses. There aren't really any broad classes of items, since people like different things. Here's how I spend discretionary income on my interests:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Books | Hobbies | -- | -- | $400 |
 | Art supplies | Hobbies | -- | -- | $500 |
@@ -172,7 +180,8 @@ Yes, I definitely spend more than the average consumer on books and art per year
 
 There are various other costs that can arise. For example, perhaps you have to pay monthly [childcare][childcare] fees to a former spouse. Maybe you dislike filing taxes, so you pay an accountant $\\$400$ annually. There's the ever-increasing cost of daycare (some say as high as $\\$4000$ a month!). And, of course, there's vacations (both domestic and international). Some folks also participate in what I like to call _appliance creep_: they constantly get new tinker-toys (usually in the kitchen). With all that in mind, here's my miscellaneous expenses chart:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Appliances | Miscellaneous | -- | -- | $350 |
 | Vacation | Miscellaneous | -- | -- | $4500 |
@@ -193,7 +202,8 @@ If you are in a mortgage situation, you will probably have to additionally pay *
 
 Finally, seeing as you're reading this on the **Internet**, you will probably have to pay for that too. Some cell phone providers actually do offer a bundle, so it's possible you can eke favorable terms for this expense. And so we get:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Rent | Housing | -- | $2900 | -- |
 | Insurance | Housing | -- | -- | $200 |
@@ -209,7 +219,8 @@ There's not much else to add here; these are just kind of the costs that exist. 
 
 Finally, if we stitch together all of the mini-charts from above, we might arrive at a first-order cost chart like this:
 
-| Item | Category | Cost/week | Cost/month | Cost/year |
+{:.mono-table}
+| Item | Category | $/wk | $/mo | $/yr |
 | --- | --- | --- | --- | --- |
 | Rent | Housing | -- | $2900 | -- |
 | Insurance | Housing | -- | -- | $200 |
@@ -224,15 +235,15 @@ Finally, if we stitch together all of the mini-charts from above, we might arriv
 | Bus fares | Transportation | -- | $25 | -- |
 | MTA fares | Transportation | -- | $29 | -- |
 | PATH fares | Transportation | $30 | -- | -- |
-| Clothing | Personal upkeep | -- | -- | $250 |
-| Self-care | Personal upkeep | -- | $40 | -- |
-| Cleaning supplies | Household upkeep | -- | $25 | -- |
-| Washing supplies | Household upkeep | -- | -- | $40 |
-| Laundry | Household upkeep | -- | $15 | -- |
-| Fabrics | Household upkeep | -- | -- | $100 |
-| Around the house | Household upkeep | -- | -- | $50 |
-| Gym membership | Subscriptions | -- | $179.91 | -- |
-| Cell phone plan | Subscriptions | -- | $50.00 | -- |
+| Clothing | Personal | -- | -- | $250 |
+| Self-care | Personal | -- | $40 | -- |
+| Cleaning | Household | -- | $25 | -- |
+| Washing | Household | -- | -- | $40 |
+| Laundry | Household | -- | $15 | -- |
+| Fabrics | Household | -- | -- | $100 |
+| Homeliness | Household | -- | -- | $50 |
+| Gym fees | Subscriptions | -- | $179.91 | -- |
+| Cell phone | Subscriptions | -- | $50.00 | -- |
 | Board games | Subscriptions | -- | -- | $150.00 |
 | Discord Nitro | Subscriptions | -- | -- | $106.62 |
 | Amazon Prime | Subscriptions | -- | -- | $148.21 |
