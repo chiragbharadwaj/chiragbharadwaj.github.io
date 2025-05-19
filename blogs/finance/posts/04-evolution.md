@@ -47,7 +47,7 @@ The other constraints on the optimization problem are merely hyperparameters; fo
 
 ## Constructing the expense sequence
 
-Obviously, it's not possible to predict so much in advance. If one's fortune changes, the requisite mending of the projections can be introduced to intervene and force the behavior to evolve in accordance with the new information. For example, if a child has an unexpected affliction, this can definitely increase the household healthcare costs. Similarly, many staunch bachelors and bachelorettes may find themselves getting married [after all][bachelors] eventually.
+Obviously, it's not possible to predict so much in advance. If one's fortune changes, the requisite mending of the data projections can be introduced to intervene and force the behavior to evolve in accordance with the new information. For example, if a child has an unexpected affliction, this can definitely increase the household healthcare costs. Similarly, many staunch bachelors and bachelorettes may find themselves getting married [after all][bachelors] eventually.
 
 With that in mind, let's construct our expected expense sequence. Like last time, I'll present each chart and provide some commentary. Luckily for readers, this time I won't do a detailed analysis by category.
 
