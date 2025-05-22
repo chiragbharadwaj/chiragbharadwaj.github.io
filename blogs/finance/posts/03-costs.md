@@ -18,11 +18,11 @@ To begin, we'll want to create space for something that visually resembles the f
 {:.mono-table}
 | Item | Category | $/week | $/month | $/year |
 | --- | --- | --- | --- | --- |
-| $x_1$ | $\pi_1$ | $c_{w,1}$ | $c_{m,1}$ | $c_{y,1}$ |
-| $x_2$ | $\pi_2$ | $c_{w,2}$ | $c_{m,2}$ | $c_{y,2}$ |
+| $x_1$ | $\pi(x_1)$ | $c_{w,1}$ | $c_{m,1}$ | $c_{y,1}$ |
+| $x_2$ | $\pi(x_2)$ | $c_{w,2}$ | $c_{m,2}$ | $c_{y,2}$ |
 | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ |
-| $x_{n-1}$ | $\pi_{n-1}$ | $c_{w,n-1}$ | $c_{m,n-1}$ | $c_{y,n-1}$ |
-| $x_n$ | $\pi_n$ | $c_{w,n}$ | $c_{m,n}$ | $c_{y,n}$ |
+| $x_{n-1}$ | $\pi(x_{n-1})$ | $c_{w,n-1}$ | $c_{m,n-1}$ | $c_{y,n-1}$ |
+| $x_n$ | $\pi(x_n)$ | $c_{w,n}$ | $c_{m,n}$ | $c_{y,n}$ |
 
 This can easily be accomplished in a spreadsheet tool of your choice (I'm partial to Google Sheets for ease of editing files across devices). In this case, I'll put it in a Python DataFrame. The reason will become apparent in a future post, but a code rendering of everything we do will enable the use of analytic tools when placed in the `data` section of a Python project.
 
