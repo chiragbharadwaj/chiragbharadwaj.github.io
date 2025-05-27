@@ -961,8 +961,6 @@ $$
 
 The natural question to ask next is probably "how do these various matrices actually _evolve_"? We've said that they do so by virtue of superscripting with time evolution $t$. But how does the system actually change between time steps? Is it completely random and memoryless? Is it stateful? Does it evolve via a fixed/constant process? These questions are all great, and we will arrive at reasonable answers over time as we work on developing an increasingly complex framework.
 
-However, before doing so, we will need to measure several other quantities besides just our costs. With a similarly-rigorous approach, we will dive deep into other aspects of the personal finance equation over the next few installments.
-
 [one-hot]: https://en.wikipedia.org/wiki/One-hot
 [post-3]: ./03-costs.html#conceptualizing-a-cost-chart
 [expenses]: ./03-costs.html#putting-it-all-together
