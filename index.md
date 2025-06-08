@@ -53,7 +53,6 @@ I also track my progress with my hobbies and interests on some associated blogs.
 
 ### Personal blogs
 
-- [[link]][finance]             &thinsp; Personal finance
 - [TBD]<!--[[link]][shogi]-->   &thinsp; Shogi tactics
 - [TBD]<!--[[link]][chinese]--> &thinsp; Chinese language/literature
 - [TBD]<!--[[link]][piano]-->   &thinsp; Piano performances
