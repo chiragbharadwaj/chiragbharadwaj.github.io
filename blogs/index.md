@@ -14,8 +14,6 @@ Please join me on my journey to the modern Renaissance!
 |Page|Title|Description|
 |---|---|---|
 ||||
-|[[link]][finance]|*Personal finance*|Some koans around managing one's finances effectively towards early retirement.|
-||||
 |[[link]][shogi]|*Shogi tactics*|Lessons on shogi strategies: openings, josekis, attacks, defenses, drops, endings.|
 ||||
 |[[link]][chinese]|*Chinese language*|Documenting proficiency in a foreign language. Focus on writing and speaking.|
